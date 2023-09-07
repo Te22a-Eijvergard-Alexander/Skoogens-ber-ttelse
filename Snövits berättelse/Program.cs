@@ -7,7 +7,7 @@ Console.WriteLine("Går du och investigerar. Ja eller nej");
 choice = Console.ReadLine();
 choice = choice.ToLower();
 
-if (choice == "Ja")
+if (choice == "ja")
 {
     Console.WriteLine("Du går längre in i skogen och ser en skum grabb hålla på att bita på en pinne");
     Console.WriteLine("Du börjar fundera över alla val du gjort i ditt liv för att sluta upp här");
@@ -26,7 +26,7 @@ else if (choice == "nej")
     choice = Console.ReadLine();
     choice = choice.ToLower();
 
-    if (choice == "Går hem")
+    if (choice == "går hem")
     {
         Console.WriteLine("Du går hem och gibbar en CS comp med bojsen");
         Console.WriteLine("Du förlorar och blir lack. Du hamnar sedan i finkan för illegla hot");
