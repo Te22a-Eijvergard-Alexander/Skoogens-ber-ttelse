@@ -1,4 +1,5 @@
-﻿
+﻿Console.ForegroundColor = ConsoleColor.DarkCyan;
+
 string choice = "";
 
 Console.WriteLine("Du är i Skogen och hör en gren knäckas");
@@ -26,7 +27,7 @@ else if (choice == "nej")
     choice = Console.ReadLine();
     choice = choice.ToLower();
 
-    if (choice == "går hem")
+    if (choice == "hem")
     {
         Console.WriteLine("Du går hem och gibbar en CS comp med bojsen");
         Console.WriteLine("Du förlorar och blir lack. Du hamnar sedan i finkan för illegla hot");
